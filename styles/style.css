@@ -15,6 +15,7 @@
     min-width: 100vw;
     min-height: 100vh;
     font-family: 'Manrope', sans-serif;
+    color: #F5F9FF;
 }
 
 .image {
@@ -25,6 +26,9 @@
 }
 
 .image__overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -34,4 +38,43 @@
     left: 0;
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 0;
+}
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    width: 1700px;
+    height: 950px;
+}
+
+.logo {
+    font-family: 'Rancho', sans-serif;
+    font-size: 36px;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 730px;
+    height: 365px;
+}
+
+.text {
+    font-weight: 600;
+    font-size: 100px;
+}
+
+.text--small{
+    font-weight: 600;
+    font-size: 36px;
+    padding-left: 5px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 850px;
+    height: 930px;
 }
