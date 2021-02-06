@@ -9,3 +9,29 @@
     padding: 0;
     box-sizing: inherit;
 }
+
+.form-page {
+    box-sizing: border-box;
+    min-width: 100vw;
+    min-height: 100vh;
+    font-family: 'Manrope', sans-serif;
+}
+
+.image {
+    background: url('../images/villa-pietra2.png') no-repeat fixed;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.image__overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
