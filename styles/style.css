@@ -98,3 +98,55 @@
 
 /* ------ Form ------ */
 
+.form {
+    width: 400px;
+}
+
+.form__list {
+    list-style-type: none;
+}
+
+.form__input {
+    height: 35px;
+    margin-bottom: 10px;
+    background-color: var(--white);
+}
+
+.form__input--large {
+    width: 300px;
+}
+
+.form__input--small {
+    width: 140px;
+    margin-right: 18px;
+}
+
+.form__label {
+    margin-bottom: 0;
+    margin-left: 2px;
+}
+
+.form__label--small {
+    width: 156px;
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: var(--white);
+    margin-top: 5px;
+}
+
+.button--reset {
+    margin-right: 28px;
+    margin-left: 1px;
+    background-color: var(--red);
+}
+
+.button--book-now {
+    margin-left: 27px;
+    background-color: var(--green);
+}
+
