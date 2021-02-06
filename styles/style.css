@@ -18,63 +18,75 @@
     color: #F5F9FF;
 }
 
+/* ------ Background Image ------ */
+
+
 .image {
-    background: url('../images/villa-pietra2.png') no-repeat fixed;
+    background-image: linear-gradient(
+        70deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.9)
+    ),
+    url('../images/villa-pietra2.png');
+    background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
-    position: relative;
-}
-
-.image__overlay {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: 0;
 }
+
+/* ------ Containers ------ */
 
 .page-container {
     display: flex;
-    justify-content: center;
-    width: 1700px;
-    height: 950px;
-}
-
-.logo {
-    font-family: 'Rancho', sans-serif;
-    font-size: 36px;
+    width: 87%;
+    height: 88%;
+    justify-content: space-around;
 }
 
 .text-container {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    width: 730px;
-    height: 365px;
-}
-
-.text {
-    font-weight: 600;
-    font-size: 100px;
-}
-
-.text--small{
-    font-weight: 600;
-    font-size: 36px;
-    padding-left: 5px;
+    width: 55%;
+    height: 40%;
 }
 
 .form-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 850px;
-    height: 930px;
+    width: 45%;
+    height: 90%;
 }
+
+/* ------ Logo ------ */
+
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Rancho', sans-serif;
+    font-size: 26px;
+}
+
+/* ------ Heading ------ */
+
+
+.heading {
+    font-weight: 600;
+    font-size: 70px;
+    padding-bottom: 15px;
+}
+
+.heading--small{
+    font-weight: 600;
+    font-size: 26px;
+    padding-left: 5px;
+}
+
+/* ------ Form ------ */
+
