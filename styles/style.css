@@ -10,12 +10,19 @@
     box-sizing: inherit;
 }
 
+:root {
+    --white: #F5F9FF;
+    --green: #459414;
+    --yellow: #FFB62E;
+    --red: #DB3700;
+}
+
 .form-page {
     box-sizing: border-box;
     min-width: 100vw;
     min-height: 100vh;
     font-family: 'Manrope', sans-serif;
-    color: #F5F9FF;
+    color: var(--white);
 }
 
 /* ------ Background Image ------ */
@@ -59,7 +66,7 @@
     justify-content: center;
     align-items: center;
     width: 45%;
-    height: 90%;
+    height: 100%;
 }
 
 /* ------ Logo ------ */
@@ -85,7 +92,8 @@
 .heading--small{
     font-weight: 600;
     font-size: 26px;
-    padding-left: 5px;
+    padding-left: 3px;
+    word-spacing: 3px;
 }
 
 /* ------ Form ------ */
