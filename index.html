@@ -55,7 +55,7 @@
                         <li class="form">
                             <label class="form__label" for="room">Room</label><br>
                             <select class="form__input form__input--select form__input--large" name="room" id="room" required>
-                                <option value="">Select</option>
+                                <option value="">Please select</option>
                                 <option value="single">Single</option>
                                 <option value="double">Double</option>
                                 <option value="suite">Suite</option>
@@ -65,13 +65,13 @@
                             <label class="form__label" for="adults">Adults</label>
                             <label class="form__label form__label--children" for="children">Children</label><br>
                             <select class="form__input form__input--select form__input--small" name="adults" id="adults" required>
-                                <option value="">Select</option>
+                                <option value="">Please select</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                             </select>
                             <select class="form__input form__input--select form__input--small" name="children" id="children" required>
-                                <option value="">Select</option>
+                                <option value="">Please select</option>
                                 <option value="">none</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -82,14 +82,20 @@
                         <li class="form">
                             <label class="form__label" for="check-in">Check-In</label>
                             <label class="form__label form__label--check-out" for="check-out">Check-Out</label><br>
-                            <select class="form__input form__input--select form__input--small" name="check-in" id="check-in" required>
-                                <option value="">Select</option>
-                                <option value="06-15-2021">06-15-2021</option>
-                            </select>
-                            <select class="form__input form__input--select form__input--small" name="check-out" id="check-out" required>
-                                <option value="">Select</option>
-                                <option value="07-03-2021">07-03-2021</option>
-                            </select>
+                            <input class="form__input form__input--select form__input--small"
+                            type="date"
+                            id="check-in"
+                            name="check-in"
+                            value="2021-02-07"
+                            min="2021-01-01"
+                            max="2021-12-31">
+                            <input class="form__input form__input--small"
+                            type="date"
+                            id="check-out"
+                            name="check-out"
+                            value="2021-02-07"
+                            min="2021-01-01"
+                            max="2021-12-31">
                         </li>
                         <li class="form">
                             <label class="form__label" for="message">Special request</label><br>
