@@ -111,6 +111,7 @@
 
 .form {
     list-style-type: none;
+    position: relative;
 }
 
 .form--list {
@@ -142,8 +143,18 @@
     margin-left: 2px;
 }
 
-.form__label--small {
-    width: 156px;
+.form__label--children {
+    position: absolute;
+    right: 95px;
+}
+
+.form__label--check-out {
+    position: absolute;
+    right: 75px;
+}
+
+.form__input--select {
+    color: rgb(109, 108, 108);
 }
 
 .form__input--textarea {
@@ -165,6 +176,10 @@
     margin-right: 28px;
     margin-left: 1px;
     background-color: var(--red);
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+    border: .5px solid rgba(0, 0, 0, .7);
 }
 
 .button--reset:hover {
@@ -174,6 +189,10 @@
 .button--book-now {
     margin-left: 27px;
     background-color: var(--green);
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+    border: .5px solid rgba(0, 0, 0, .7);
 }
 
 .button--book-now:hover {
