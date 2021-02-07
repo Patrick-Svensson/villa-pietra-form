@@ -17,47 +17,50 @@
                 <h1 class="heading"><span class="heading--small">Good Service Is Our Passion</span><br>Book Your Stay</h1> 
             </div>
             <div class="form-container">
-                <form class="form" action="#" method="post"  target="_blank">
+                <div class="icon-container">
+                    <i class="fas fa-user-edit icon icon--name"></i>
+                    <i class="fas fa-user-edit icon icon--name"></i>
+                    <i class="fas fa-envelope icon"></i>
+                    <i class="fas fa-bed icon"></i>
+                    <i class="fas fa-users icon"></i>                          
+                    <i class="fas fa-calendar-alt icon"></i>
+                    <i class="fas fa-pencil-alt icon"></i>
+                </div>
+                <form action="#" method="post"  target="_blank">
                     <ul>
-                        <li class="form__list">
-                            <i></i>
+                        <li class="form">
                             <label class="form__label" for="fname">First name</label><br>
                             <input class="form__input form__input--large" type="text" id="fname" name="fname" required>
                         </li>
-                        <li class="form__list">
+                        <li class="form">
                             <label class="form__label" for="lname">Last name</label><br>
                             <input class="form__input form__input--large" type="text" id="lname" name="lname" required>
                         </li>
-                        <li class="form__list">
-                            <i></i>
+                        <li class="form">
                             <label class="form__label" for="email">Email</label><br>
                             <input class="form__input form__input--large" type="email" id="email" name="email" required>
                         </li>
-                        <li class="form__list">
-                            <i></i>
+                        <li class="form">
                             <label class="form__label" for="">Room</label><br>
                             <input class="form__input form__input--large" type="text">
                         </li>
-                        <li class="form__list">
-                            <i></i>
+                        <li class="form">
                             <label class="form__label form__label--small" for="">Adults</label>
-                            <label class="form__label" for="">Children</label><br>                            
+                            <label class="form__label" for="">Children</label><br>
                             <input class="form__input form__input--small" type="text">
                             <input class="form__input form__input--small" type="text">
                         </li>
-                        <li class="form__list">
-                            <i></i>
+                        <li class="form">
                             <label class="form__label form__label--small" for="">Arrival</label>
                             <label class="form__label" for="">Departure</label><br>
                             <input class="form__input form__input--small" type="text">
                             <input class="form__input form__input--small" type="text">
                         </li>
-                        <li class="form__list">
-                            <i></i>
+                        <li class="form">
                             <label class="form__label" for="message">Special request</label><br>
-                            <textarea class="form__input form__input--large" name="message" id="message"></textarea>
+                            <textarea class="form__input form__input--large form__input--textarea" name="message" id="message"></textarea>
                         </li>
-                        <li class="form__list">
+                        <li class="form">
                             <input class="button button--reset" aria-label="reset" type="reset">
                             <input class="button button--book-now" aria-label="reset" type="submit" value="Book Now">
                         </li>
